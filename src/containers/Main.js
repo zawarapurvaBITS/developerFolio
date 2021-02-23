@@ -41,7 +41,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div className={this.state.isDark ? "dark-mode" : null}>
+      <div className="overflow-x-hidden">
         <StyleProvider
           value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
         >
@@ -59,7 +59,6 @@ export default class Main extends Component {
           <Twitter />
           <Podcast />
           <Profile />
-          <Footer />
           <Top />
         </StyleProvider>
       </div>

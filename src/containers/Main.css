@@ -1,5 +1,14 @@
 .dark-mode {
-  background-color: #171c28;
+  background-color: #364465;
   color: white;
   transition: "0.1s";
+}
+
+.react-reveal.main {
+  padding: 0 70px;
+  margin: 100px auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }

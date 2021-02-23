@@ -1,7 +1,7 @@
 /* header */
 
 .dark-menu {
-  background-color: #171c28 !important;
+  background-color: #364465 !important;
   color: white;
 }
 
@@ -57,6 +57,7 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: #868e96;
 }
 
 /* menu */

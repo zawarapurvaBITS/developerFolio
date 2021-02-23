@@ -19,11 +19,7 @@ export default function StartupProject() {
         <div>
           <h1 className="skills-heading">{bigProjects.title}</h1>
           <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
+            className="subTitle project-subtitle"
           >
             {bigProjects.subtitle}
           </p>
@@ -33,11 +29,7 @@ export default function StartupProject() {
               return (
                 <div
                   key={i}
-                  className={
-                    isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
-                  }
+                  className="project-card project-card-light"
                 >
                   {project.image ? (
                     <div className="project-image">
@@ -50,14 +42,12 @@ export default function StartupProject() {
                   ) : null}
                   <div className="project-detail">
                     <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
+                      className="card-title"
                     >
                       {project.projectName}
                     </h5>
                     <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
+                      className="card-subtitle"
                     >
                       {project.projectDesc}
                     </p>
@@ -67,9 +57,7 @@ export default function StartupProject() {
                           return (
                             <span
                               key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
+                              className="project-tag"
                               onClick={() => openProjectInNewWindow(link.url)}
                             >
                               {link.name}
